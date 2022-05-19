@@ -1,0 +1,11 @@
+{
+  "name": "floating-point-calculator",
+  "version": "1.0.0",
+  "description": "floating point calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sam Wang",
+  "license": "ISC"
+}
