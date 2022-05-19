@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.98.0">
-    <title>Signin Template · Bootstrap v5.2</title>
+    <title>Floating Point Calculator</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sign-in/">
 
@@ -80,26 +80,20 @@
     <h1 class="h3 mb-3 fw-normal">Enter float data</h1>
 
     <div class="form-floating">
-      <input type="number" class="form-control" id="exp" placeholder="Number of exponent bits">
+      <input type="text" class="form-control middle" id="sign" name = "s" placeholder="Sign bit" maxlength = "1" min="0" max="1" pattern="[01]+">
     </div>
     <div class="form-floating">
-      <input type="number" class="form-control middle" id="sig" placeholder="Number of significand bits">
+      <input type="text" class="form-control middle" id="expbits" name = "p" placeholder="exponent bits" pattern="[01]+">
     </div>
     <div class="form-floating">
-      <input type="number" class="form-control middle" id="sign" placeholder="Sign bit">
-    </div>
-    <div class="form-floating">
-      <input type="number" class="form-control middle" id="expbits" placeholder="exponent bits">
-    </div>
-    <div class="form-floating">
-      <input type="number" class="form-control" id="sigbits" placeholder="significand bits">
+      <input type="text" class="form-control" id="sigbits" name = "q" placeholder="significand bits" pattern="[01]+">
     </div>
     <button class="w-100 btn btn-lg btn-primary" type="submit">Calculate</button>
-    <p class="mt-5 mb-3 text-muted">Created by Sam Wang</p>
   </form>
+
+  <div id = "answer">CREDITS_HERE</div>
+<p class="mt-5 mb-3 text-muted">Created by Sam Wang</p>
 </main>
-
-
 
   </body>
 </html>
